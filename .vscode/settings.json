@@ -1,0 +1,26 @@
+{
+    "python.pythonPath": "${workspaceDir}/.venv/scripts/python.exe",
+    "python.autoComplete.extraPaths": [
+        "${workspaceDir}/.venv/Lib/site-packages",
+        "${workspaceDir}/.venv/Include"
+    ],
+    "python.linting.enabled":true,
+    "python.formatting.provider": "autopep8",
+    "python.formatting.formatOnSave": true,
+    "python.unitTest.pyTestEnabled": true,
+    "python.unitTest.unittestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.cache": true,
+        "**/.venv": true,
+        "**/.gitignore": true,
+        "**/__pycache__": true
+        
+    },
+    "files.autoSave": "onFocusChange"
+}
